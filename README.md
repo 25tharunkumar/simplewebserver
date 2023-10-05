@@ -34,7 +34,8 @@ content=''' <!doctype html>
 5.Amazon
 
 ## OUTPUT:
-ou
+![image](https://github.com/25tharunkumar/simplewebserver/assets/123470785/c6cdc4ef-e04d-45df-b199-f2f180132c09)
+
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
