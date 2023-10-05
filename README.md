@@ -21,10 +21,20 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
+''' from http.server import HTTPServer,BaseHTTPRequestHandler
 
+content=''' <!doctype html>
+
+<title> My Web Server</title>
+## Top Five Web Application Development Frameworks
+1.Microsoft
+2.Apple
+3.X
+4.tesla
+5.Amazon
 
 ## OUTPUT:
-
+ou
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
