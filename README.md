@@ -29,9 +29,15 @@ content = """
 <html>
 <head>
 <title>My webserver</title>
+<style>
+    body{
+
+        background-image:url('img.jpg');
+    }
+</style>
 </head>
 <body>
-<h1 align="center"><b>Top 5 Revenue Companies</b></h1><br>
+<h1 align="center"><b>Top 5 webdevelopment framework</b></h1><br>
     <table align="center" border="15" cellpadding="15" cellspacing="3">
         <tr>
             <th>Company name</th>
@@ -40,15 +46,15 @@ content = """
         </tr>
         <tr>
             <td><ul>
-                <li>Infosis</li>
+                <li>Django</li>
                 <br>
-                <li>HCL</li>
+                <li>MEAN stack</li>
                 <br>
-                <li>Wipro</li>
+                <li>MEAN stack</li>
                 <br>
-                <li>Redington India Ltd</li>
+                <li>ASP.NET core</li>
                 <br>
-                <li>Tech Mahindra Limited</li>
+                <li>spring</li>
             </ul></td>
             <td>
                 <ul>
@@ -65,15 +71,15 @@ content = """
             </td>
             <td>
                 <ul>
-                    <li>123crore</li>
+                    <li>123162</li>
                     <br>
-                    <li>1233crore</li>
+                    <li>12335402</li>
                     <br>
-                    <li>4165crore</li>
+                    <li>41655262</li>
                     <br>
-                    <li>4523crore</li>
+                    <li>4523122</li>
                     <br>
-                    <li>7456crore</li>
+                    <li>74562162</li>
                 </ul>
             </td>
         </tr>
@@ -91,18 +97,18 @@ class myhandler(BaseHTTPRequestHandler):
 server_address = ('',80)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
-httpd.serve_forever()\
+httpd.serve_forever()
 ```
 ## Top Five Web Application Development Frameworks
 ```
-1.Microsoft
-2.Apple
-3.X
-4.tesla
-5.Amazon
+1.Django
+2.MEAN stack
+3.MEAN stack
+4.ASP.NET core
+5.spring
 ```
 ## OUTPUT:
-![image](https://github.com/25tharunkumar/simplewebserver/assets/123470785/c6cdc4ef-e04d-45df-b199-f2f180132c09)
+![image](https://github.com/25tharunkumar/simplewebserver/assets/123470785/7d866625-d82e-4b4a-8629-d1da2b0ee3c3)
 
 
 ## RESULT:
